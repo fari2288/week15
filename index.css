@@ -1,0 +1,28 @@
+.calculator {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 30vw;
+    height: 30vh;
+    flex-wrap: wrap;
+}
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.plus,
+.divide,
+.times,
+.minus {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 126, 183);
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+}
