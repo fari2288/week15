@@ -8,19 +8,19 @@ let confirm = document.getElementById('exampleconfirm');
 
 document.getElementById('errorMessage').innerHTML ="";
 if (email.value =='') {
-    document.getElementById('errorMessage').innerHTML +="Ваш email не заполнен<br>";
+    document.getElementById('errorMessage').innerHTML +="Ваш емейл не заполнен<br>";
 }
 if (name.value =='') {
-    document.getElementById('errorMessage').innerHTML +="Ваш email не заполнен<br>";
+    document.getElementById('errorMessage').innerHTML +="Вашe имя не заполнено<br>";
 }
 if (surname.value =='') {
-    document.getElementById('errorMessage').innerHTML +="Ваш email не заполнен<br>";
+    document.getElementById('errorMessage').innerHTML +="Ваша фамилия не заполнена<br>";
 }
 if (password.value =='') {
-    document.getElementById('errorMessage').innerHTML +="Ваш email не заполнен<br>";
+    document.getElementById('errorMessage').innerHTML +="Ваш пароль не заполнен<br>";
 }
 if (confirm.value =='') {
-    document.getElementById('errorMessage').innerHTML +="Ваш email не заполнен<br>";
+    document.getElementById('errorMessage').innerHTML +="Подтверждение пароля не заполнено<br>";
 }
 else {
     
