@@ -24,6 +24,6 @@ if (confirm.value =='') {
 }
 else {
     
-    document.getElementById('errorMessage').innerHTML +=`Добро пожаловать`, + name;
+    document.getElementById('errorMessage').innerHTML +=`Добро пожаловать, ` + name.value + `!`;
 }
 }
