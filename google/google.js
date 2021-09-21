@@ -22,4 +22,8 @@ if (password.value =='') {
 if (confirm.value =='') {
     document.getElementById('errorMessage').innerHTML +="Ваш email не заполнен<br>";
 }
+else {
+    
+    document.getElementById('errorMessage').innerHTML +=`Добро пожаловать`, + name;
+}
 }
