@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="google.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="registration">
+        <div class="registration__window">
+            <div class="registration__form">
+                <div class="registration__form-logo"><img src="assets/googlelogo_color_272x92dp.png" width="70px">
+                </div>
+                <div class="registration__form-title">Создайте аккаунт Google</div>
+                <form class="registration__form-form">
+                    <input type="name" placeholder="Имя" id="examplename">
+                    <input type="surname" placeholder="Фамилия" id="examplesurname">
+                    <input type="email" placeholder="Имя пользователя                                    gmail.com" id="exampleemail">
+                    <div class="text">Можно использовать буквы латинского алфавита, цифры и точки</div>
+                    <input type="password" placeholder="Пароль" id="examplepassword">
+                    <input type="confirm" placeholder="Подтвердить" id="exampleconfirm">
+                    <input type="checkbox" class="checkbox"> Показать пароль
+
+                </form>
+                <div id="errorMessage"></div>
+                <div class="registration__form-buttons">
+                    <button type="button"
+                        class="btn btn-outline-primary registration__form-button-comein" onclick="check();">Войти</button>
+                    <button type="button" class="btn btn-primary registration__form-button-next">Далее</button>
+
+                </div>
+            </div>
+
+
+
+            <div class="registration__picture">
+                <div class="registration__picture-picture"><img src="assets/account.svg" alt="" class="picture">
+                    <div class="registration__picture-text">Один аккаунт - для всех сервисов Google</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="google.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

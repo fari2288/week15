@@ -1,0 +1,124 @@
+.registration {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.registration__window {
+    display: flex;
+    width: 50vw;
+    height: 70vh;
+    border: 1px solid rgb(211, 198, 198);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.registration__form {
+    display: flex;
+    width: 60%;
+    border: rgb(219, 211, 211);
+}
+
+.registration__picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.registration__picture-picture {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.registration__picture-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 300;
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+.registration__form-text {
+    justify-content: center;
+    
+
+}
+
+.registration__form-logo {
+    margin: 30px;
+
+}
+
+.registration__form-title {
+    margin-left: 30px;
+    font-size: 20px;
+    
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.text {
+    margin-left: 20px;
+    width: 370px;
+    color: rgb(122, 117, 117);
+}
+
+.registration__form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.checkbox {
+    margin-left: 10px;
+}
+
+.registration__form-form {
+    margin: 30px;
+    height: 40%;
+}
+.registration__form-buttons {
+    padding-top: 40px;
+    display: flex;
+    width: 86%;
+    margin-left: 30px;
+    justify-content: space-between;
+
+}
+
+.registration__form-button-next {
+    display: flex;
+}
+
+
+#examplename,
+#examplesurname,
+#examplepassword,
+#exampleconfirm {
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    color: rgb(133, 128, 128);
+    border: rgb(200, 190, 190) 1px solid;
+    border-radius: 5px;
+}
+
+#exampleemail {
+    width: 380px;
+    height: 30px;
+    margin-left: 10px;
+    color: rgb(122, 117, 117);
+    border: rgb(200, 190, 190) 1px solid;
+    border-radius: 5px;
+}
+#errorMessage {
+    color: red;
+    line-height: 12px;
+    margin-left: 30px;
+}
