@@ -13,7 +13,7 @@ function changeBackground() {
     document.body.style.background = "rgb(87, 75, 83)";
     
     if(document.getElementById('color').value == "pink")
-    document.body.style.background = "rgb(212, 136, 206)";
+    document.body.style.background = "rgb(255, 192, 203)";
 
     if(document.getElementById('color').value == "yellow")
     document.body.style.background = "rgb(244, 246, 106)";
